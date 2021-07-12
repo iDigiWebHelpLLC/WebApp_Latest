@@ -23,7 +23,7 @@ class _AccountScreenState extends State<AccountScreen> {
 
   String welcomeMessage;
   double width, height;
-  String appbarTitle = 'Billing/Payments';
+  String appbarTitle = 'Billing';
   List<BillingStatement> billingStatement;
   int statusCount = 0;
   @override

@@ -15,7 +15,7 @@ class _WebHomeState extends State<WebHome> {
   double width, height;
   bool isTabulateWidth,isMobileWidth,isDesktopWidth;
   String isPageName;
-  String appbarTitle = 'Billing/Payments';
+  String appbarTitle = 'Billing';
  // String appbarTitle = 'Account Overview';
   bool tap1,tap2,tap3,tap4;
   @override
@@ -49,7 +49,7 @@ class _WebHomeState extends State<WebHome> {
                                 children: [
                                   InkWell(
                                       onTap: () {
-                                        appbarTitle = 'Billing/Payments';
+                                        appbarTitle = 'Billing';
                                         // Navigator.push(context, MaterialPageRoute(builder: (context) => AccountScreen(subscriber)));
                                       },
                                       child:Row(
@@ -57,7 +57,7 @@ class _WebHomeState extends State<WebHome> {
                                           tap1?Image.asset("assets/images/billingiconblue.png",):
                                           Image.asset("assets/images/Billing Icon_Gray.png",),
                                           Text(
-                                            'Billing/Payments',
+                                            'Billing',
                                             style: TextStyle(color: Colors.black),
                                           ),
                                         ],
